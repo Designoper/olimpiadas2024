@@ -1,0 +1,40 @@
+main {
+	display: grid;
+	gap: 4em 0;
+	padding: 4em 0;
+
+	section {
+		display: grid;
+		padding: 0 10vw;
+		gap: 2.5em 3em;
+	}
+
+	ul {
+		list-style: decimal inside;
+		row-gap: 1em;
+	}
+
+	@media screen and (541px <=width) {
+		padding: 6em 0;
+		gap: 6em 0;
+
+		ul {
+			row-gap: 1.25em;
+		}
+	}
+
+	@media screen and (925px <=width) {
+		section {
+			padding: 0 7.5vw;
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media screen and (1366px <=width) {
+		section {
+			max-width: 1161px;
+			padding: 0;
+			margin: auto;
+		}
+	}
+}

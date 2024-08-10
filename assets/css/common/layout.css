@@ -1,19 +1,18 @@
 main {
-	display: grid;
-	/* gap: 4em 0; */
-	/* padding: 4em 0; */
+	/* display: grid; */
 
 	section {
 		display: grid;
-		gap: 2.5em 3em;
+		gap: 2.5em 3.25em;
 		padding: 2em 10vw;
 
 		&:nth-of-type(odd) {
-			background-color: hsl(43, 50%, 95%);
+			background-color: hsl(42, 100%, 88%);
 		}
 
 		&:nth-of-type(even) {
-			background-color: hsl(197, 50%, 93%);
+			background-color: hsl(42, 100%, 94%);
+
 		}
 	}
 

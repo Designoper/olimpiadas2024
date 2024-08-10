@@ -1,0 +1,32 @@
+main {
+	@media screen and (925px <=width) {
+		section {
+			&:nth-of-type(2) {
+				grid-template-columns: 1fr;
+
+				span {
+					color: blue;
+					font-size: 2em;
+					/* font-weight: bold; */
+					display: block;
+					text-align: center;
+				}
+
+				li {
+					font-weight: bold;
+					padding: 1em;
+					background-color: white;
+					/* width: fit-content; */
+					text-align: center;
+					/* justify-self: center; */
+				}
+			}
+		}
+
+		ul {
+			list-style: none;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 3em 3.25em;
+		}
+	}
+}

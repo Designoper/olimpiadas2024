@@ -24,10 +24,10 @@
 :is(img, video) {
 	width: 100%;
 	height: auto;
+	display: block;
 }
 
 img {
-	display: block;
 	object-fit: cover;
 }
 

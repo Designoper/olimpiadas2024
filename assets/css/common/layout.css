@@ -1,12 +1,20 @@
 main {
 	display: grid;
-	gap: 4em 0;
-	padding: 4em 0;
+	/* gap: 4em 0; */
+	/* padding: 4em 0; */
 
 	section {
 		display: grid;
 		gap: 2.5em 3em;
-		padding: 0 10vw;
+		padding: 2em 10vw;
+
+		&:nth-of-type(odd) {
+			background-color: hsl(48, 19%, 89%);
+		}
+
+		&:nth-of-type(even) {
+			background-color: hsl(36, 58%, 82%);
+		}
 	}
 
 	ul {
@@ -16,8 +24,8 @@ main {
 	}
 
 	@media screen and (541px <=width) {
-		padding: 6em 0;
-		gap: 6em 0;
+		/* padding: 6em 0; */
+		/* gap: 6em 0; */
 
 		ul {
 			row-gap: 1.25em;
@@ -26,16 +34,8 @@ main {
 
 	@media screen and (925px <=width) {
 		section {
-			padding: 0 7.5vw;
+			padding: 3em 7.5vw;
 			grid-template-columns: repeat(3, 1fr);
-		}
-	}
-
-	@media screen and (1366px <=width) {
-		section {
-			/* max-width: 900px; */
-			/* padding: 0; */
-			margin: auto;
 		}
 	}
 }

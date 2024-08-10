@@ -5,13 +5,15 @@ main {
 		display: grid;
 		gap: 2.5em 3.25em;
 		padding: 2em 10vw;
+		/* border-bottom: 10px solid red; */
+		/* box-shadow: 0 0 0 0.15em #6bc9e6; */
 
 		&:nth-of-type(odd) {
-			background-color: hsl(42, 100%, 88%);
+			/* background-color: hsl(42, 100%, 88%); */
 		}
 
 		&:nth-of-type(even) {
-			background-color: hsl(42, 100%, 94%);
+			/* background-color: hsl(42, 100%, 94%); */
 
 		}
 	}

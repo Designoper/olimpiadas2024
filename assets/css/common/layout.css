@@ -9,11 +9,11 @@ main {
 		padding: 2em 10vw;
 
 		&:nth-of-type(odd) {
-			background-color: hsl(48, 19%, 89%);
+			background-color: hsl(43, 50%, 95%);
 		}
 
 		&:nth-of-type(even) {
-			background-color: hsl(37, 46%, 82%);
+			background-color: hsl(197, 50%, 93%);
 		}
 	}
 

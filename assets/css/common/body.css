@@ -1,10 +1,8 @@
 html {
 	--primary-bg: hsl(180, 42%, 93%);
-	--secondary-bg: hsl(180, 81%, 58%);
+	--secondary-bg: hsl(54, 86%, 66%);
 	--background-text: hsl(from var(--secondary-bg) h calc(s) calc(l/1.25) / 1);
 	--text: hsla(0, 0%, 0%, 0.8);
-
-	--row-gap: 2rem;
 
 	font: 1.1rem "Roboto", sans-serif;
 	color: var(--text);
@@ -30,14 +28,8 @@ html {
 		font-size: 1.35em;
 	}
 
-	ul {
-		display: grid;
-	}
-
-	li {
-		&::marker {
-			font-weight: bold;
-		}
+	li::marker {
+		font-weight: bold;
 	}
 
 	strong {

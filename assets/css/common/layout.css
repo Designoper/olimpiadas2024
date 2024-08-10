@@ -5,11 +5,12 @@ main {
 
 	section {
 		display: grid;
-		padding: 0 10vw;
 		gap: 2.5em 3em;
+		padding: 0 10vw;
 	}
 
 	ul {
+		display: grid;
 		list-style: decimal inside;
 		row-gap: 1em;
 	}
@@ -26,14 +27,14 @@ main {
 	@media screen and (925px <=width) {
 		section {
 			padding: 0 7.5vw;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: repeat(3, 1fr);
 		}
 	}
 
 	@media screen and (1366px <=width) {
 		section {
-			max-width: 1161px;
-			padding: 0;
+			/* max-width: 900px; */
+			/* padding: 0; */
 			margin: auto;
 		}
 	}

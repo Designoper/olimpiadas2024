@@ -13,7 +13,7 @@ main {
 		}
 
 		&:nth-of-type(even) {
-			background-color: hsl(36, 58%, 82%);
+			background-color: hsl(37, 46%, 82%);
 		}
 	}
 

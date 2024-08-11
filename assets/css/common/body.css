@@ -37,6 +37,26 @@ html {
 		font-weight: bold;
 	}
 
+	p {
+		animation-timeline: view(block);
+		animation-name: grow;
+		animation-range: entry 10% contain 40%;
+		transform-origin: left;
+		/* background-color: rgb(0, 0, 0); */
+	}
+
+	@keyframes grow {
+		from {
+			scale: 0;
+			opacity: 0;
+		}
+
+		to {
+			scale: 1;
+			opacity: 1;
+		}
+	}
+
 	@media screen and (541px <=width) {
 		font-size: 1.25rem;
 

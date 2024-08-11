@@ -19,12 +19,6 @@ main {
 		z-index: 1;
 	}
 
-	/* h2 {
-		&::before {
-			content: url('../../img/Anillos_olimpicos.png');
-		}
-	} */
-
 	h3 {
 		font-size: 1.25rem;
 	}
@@ -44,15 +38,6 @@ main {
 		h2 {
 			text-align: left;
 			/* display: inline-block; */
-
-
-
-			/* img {
-				display: inline-block;
-
-				width: 20px;
-				height: auto;
-			} */
 		}
 
 		h3 {

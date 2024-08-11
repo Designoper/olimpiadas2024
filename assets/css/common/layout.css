@@ -11,10 +11,12 @@ main {
 
 		&:nth-of-type(odd) {
 			/* background-color: hsl(42, 100%, 88%); */
+			/* background-color: hsl(0, 0%, 95%); */
 		}
 
 		&:nth-of-type(even) {
 			/* background-color: hsl(42, 100%, 94%); */
+			/* background-color: hsl(0, 0%, 90%); */
 
 		}
 	}

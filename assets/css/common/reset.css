@@ -39,3 +39,7 @@ button {
 	cursor: pointer;
 	display: grid;
 }
+
+svg {
+	display: block;
+}

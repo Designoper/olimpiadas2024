@@ -2,7 +2,8 @@ html {
 	--primary-bg: hsl(180, 42%, 93%);
 	--secondary-bg: hsl(54, 86%, 66%);
 	--background-text: hsl(from var(--secondary-bg) h calc(s) calc(l/1.25) / 1);
-	--text: hsla(0, 0%, 0%, 0.8);
+	--logo-color: #d6c278;
+	--text: hsl(0, 0%, 20%);
 
 	font: 1.1rem "lato", sans-serif;
 	color: var(--text);

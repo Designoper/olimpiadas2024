@@ -15,8 +15,13 @@ header {
     }
 
     >[href="./"] {
-        width: 5rem;
+        width: 1rem;
         /* height: auto; */
+
+        /* svg{
+            width: 100%;
+            height: auto;
+        } */
     }
 
     >details {
@@ -106,7 +111,7 @@ header {
         }
 
         >[href="./"] {
-            width: 7rem;
+            width: 3rem;
         }
 
         >details {

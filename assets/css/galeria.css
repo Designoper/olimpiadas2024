@@ -1,0 +1,21 @@
+main {
+	@media screen and (925px <=width) {
+		img {
+			anchor-name: --img;
+			/* height: 50%; */
+		}
+
+		div {
+			max-width: 50%;
+			font-size: 2em;
+			color: white;
+			position: absolute;
+			position-anchor: --img;
+			top: anchor(top);
+			left: anchor(left);
+			margin-left: 2em;
+		}
+
+
+	}
+}

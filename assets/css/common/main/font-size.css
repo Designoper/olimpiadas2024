@@ -1,34 +1,26 @@
 html {
-	--primary-bg: hsl(0, 0%, 95%);
-	--secondary-bg: hsl(54, 86%, 66%);
-	--background-text: hsl(from var(--secondary-bg) h calc(s) calc(l/1.25) / 1);
-	--logo-color: #d6c278;
-	--text: hsl(0, 0%, 20%);
-	--text-light: hsl(0, 0%, 0%);
-
 	font: 1.1rem "Inter", sans-serif;
-	color: var(--text);
-	background-color: var(--primary-bg);
-	scrollbar-color: var(--secondary-bg) var(--primary-bg);
+}
 
-	&:focus-visible {
-		outline: var(--text) solid 4px;
-	}
-
+main {
 	:is(h1, h2, h3) {
 		font-weight: bold;
 		text-align: center;
 		text-wrap: balance;
 		hyphens: none;
-		flex-basis: 100%;
-		grid-column: 1/-1;
-		column-span: all;
-		color: var(--text-light);
 		/* line-height: initial; */
+	}
+
+	h1 {
+		font-size: 2rem;
 	}
 
 	h2 {
 		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
 	}
 
 	li::marker {
@@ -42,6 +34,10 @@ html {
 	@media screen and (541px <=width) {
 		font-size: 1.25rem;
 
+		h1 {
+			font-size: 2.5rem;
+		}
+
 		h2 {
 			font-size: 1.75em;
 		}
@@ -50,8 +46,16 @@ html {
 	@media screen and (925px <=width) {
 		font-size: 1.1rem;
 
+		h1 {
+			font-size: 3.5rem;
+		}
+
 		h2 {
 			font-size: 2em;
+		}
+
+		h3 {
+			font-size: 1.5rem;
 		}
 	}
 

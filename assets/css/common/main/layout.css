@@ -1,17 +1,17 @@
 main {
 	>div {
 		position: relative;
+	}
 
-		img {
-			filter: brightness(50%);
-		}
+	:is(h1, h2, h3) {
+		flex-basis: 100%;
+		grid-column: 1/-1;
+		column-span: all;
 	}
 
 	h1 {
 		width: 100%;
 		padding: 0 10vw;
-		font-size: 2rem;
-		color: var(--primary-bg);
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -19,29 +19,36 @@ main {
 		z-index: 1;
 	}
 
-	h3 {
-		font-size: 1.25rem;
+	section {
+		display: grid;
+		gap: 2.5em 3.25em;
+		padding: 2em 10vw;
+	}
+
+	ul {
+		display: grid;
+		list-style: decimal inside;
+		row-gap: 1em;
 	}
 
 	@media screen and (541px <=width) {
 		h1 {
-			font-size: 2.5rem;
 			padding: 0 7.5vw;
+		}
+
+		ul {
+			row-gap: 1.25em;
 		}
 	}
 
 	@media screen and (925px <=width) {
-		h1 {
-			font-size: 3.5rem;
+		section {
+			padding: 3em 7.5vw;
+			grid-template-columns: repeat(3, 1fr);
 		}
 
 		h2 {
 			text-align: left;
-			/* display: inline-block; */
-		}
-
-		h3 {
-			font-size: 1.5rem;
 		}
 	}
 }

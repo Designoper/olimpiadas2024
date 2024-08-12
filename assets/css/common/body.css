@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'aa';
+	src: url('../../fonts/Inter/web/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'aa';
+	src: url('../../fonts/Inter/web/Inter-Bold.woff2') format('woff2');
+	font-weight: bold;
+}
+
 html {
 	--primary-bg: hsl(0, 0%, 95%);
 	--secondary-bg: hsl(54, 86%, 66%);
@@ -5,7 +16,7 @@ html {
 	--logo-color: #d6c278;
 	--text: hsl(0, 0%, 20%);
 
-	font: 1.1rem "lato", sans-serif;
+	font: 1.1rem "aa", sans-serif;
 	color: var(--text);
 	background-color: var(--primary-bg);
 	scrollbar-color: var(--secondary-bg) var(--primary-bg);

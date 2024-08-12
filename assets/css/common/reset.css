@@ -15,6 +15,7 @@
 	flex-wrap: wrap;
 	text-align: justify;
 	hyphens: auto;
+	transition-behavior: allow-discrete;
 }
 
 :is(ol, ul, menu) {

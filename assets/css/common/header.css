@@ -16,12 +16,6 @@ header {
 
     >[href="./"] {
         width: 2rem;
-        /* height: auto; */
-
-        /* svg{
-            width: 100%;
-            height: auto;
-        } */
     }
 
     >details {
@@ -74,7 +68,7 @@ header {
         transition-property: right, visibility;
         transition-duration: 0.7s;
 
-        :is(summary, a) {
+        a {
             padding: 0.35em 2em;
             display: list-item;
         }
@@ -82,10 +76,6 @@ header {
 
     @media screen and (541px <=width) {
         padding: 1.35rem 10vw;
-
-        /* >[href="./"] {
-            width: 2rem;
-        } */
 
         >details {
             width: 1.5rem;
@@ -125,22 +115,13 @@ header {
                 display: flex;
             }
 
-            :is(summary, a) {
+            a {
                 padding: 0.5em 0.75em;
                 transition: background-color 0.35s;
                 border-radius: 0.2em;
 
                 &:hover {
                     background-color: var(--background-text);
-                }
-            }
-
-            ul {
-                position: absolute;
-                background-color: var(--secondary-bg);
-
-                a {
-                    padding: 0.5em 1em;
                 }
             }
         }

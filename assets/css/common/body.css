@@ -1,12 +1,18 @@
 @font-face {
-	font-family: 'aa';
-	src: url('../../fonts/Inter/web/Inter-Regular.woff2') format('woff2');
+	font-family: 'Inter';
+	src: url('../../fonts/public/inter/inter-regular.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'aa';
-	src: url('../../fonts/Inter/web/Inter-Bold.woff2') format('woff2');
+	font-family: 'Inter';
+	src: url('../../fonts/public/inter/inter-bold.woff2') format('woff2');
 	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../../fonts/public/inter/inter-black.woff2') format('woff2');
+	font-weight: 800;
 }
 
 html {
@@ -16,7 +22,7 @@ html {
 	--logo-color: #d6c278;
 	--text: hsl(0, 0%, 20%);
 
-	font: 1.1rem "aa", sans-serif;
+	font: 1.1rem "Inter", sans-serif;
 	color: var(--text);
 	background-color: var(--primary-bg);
 	scrollbar-color: var(--secondary-bg) var(--primary-bg);
@@ -26,7 +32,7 @@ html {
 	}
 
 	:is(h1, h2, h3) {
-		font-weight: bold;
+		font-weight: 600;
 		text-align: center;
 		text-wrap: balance;
 		hyphens: none;

@@ -14,12 +14,12 @@ html {
 		outline: var(--text) solid 4px;
 	}
 
-	:is(h2, h3) {
-		color: var(--text);
-	}
-
 	h1 {
 		color: var(--primary-bg);
+	}
+
+	:is(h2, h3) {
+		color: var(--text);
 	}
 
 	strong {

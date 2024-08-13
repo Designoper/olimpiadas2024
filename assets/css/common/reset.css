@@ -22,25 +22,16 @@
 	list-style: none;
 }
 
-:is(img, video) {
+:is(img, svg, video) {
+	display: block;
 	width: 100%;
 	height: auto;
-	display: block;
 }
 
 img {
 	object-fit: cover;
 }
 
-summary {
+:is(button, summary) {
 	cursor: pointer;
-}
-
-button {
-	cursor: pointer;
-	display: grid;
-}
-
-svg {
-	display: block;
 }

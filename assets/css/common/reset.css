@@ -4,6 +4,7 @@
 	border: 0;
 	box-sizing: border-box;
 	font: inherit;
+	-webkit-font-smoothing: antialiased;
 	line-height: 1.5;
 	text-box-trim: both;
 	text-box-edge: cap alphabetic;

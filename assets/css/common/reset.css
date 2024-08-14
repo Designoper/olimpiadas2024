@@ -11,11 +11,15 @@
 	text-align: justify;
 	hyphens: auto;
 	text-decoration: none;
-	-webkit-font-smoothing: antialiased;
+	overflow-wrap: break-word;
 	color: inherit;
 	background-color: transparent;
 	break-inside: avoid;
 	flex-wrap: wrap;
+}
+
+html {
+	font-family: sans-serif;
 }
 
 li {

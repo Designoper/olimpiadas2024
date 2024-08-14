@@ -9,22 +9,18 @@ html {
 	color: var(--text-light);
 	background-color: var(--primary-bg);
 	scrollbar-color: var(--secondary-bg) var(--primary-bg);
+}
 
-	&:focus-visible {
-		outline: var(--text) solid 4px;
-	}
+:focus-visible {
+	outline: var(--text) solid 4px;
+}
 
-	h1 {
-		color: var(--primary-bg);
-	}
+h1 {
+	color: var(--primary-bg);
+}
 
-	:is(h2, h3) {
-		color: var(--text);
-	}
-
-	strong {
-		color: var(--text);
-	}
+:is(h2, h3, strong) {
+	color: var(--text);
 }
 
 main {

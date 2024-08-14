@@ -1,25 +1,24 @@
 :is(*, *::before, *::after) {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	border: 0;
 	box-sizing: border-box;
 	font: inherit;
-	-webkit-font-smoothing: antialiased;
 	line-height: 1.5;
 	text-box-trim: both;
 	text-box-edge: cap alphabetic;
 	text-wrap: pretty;
+	text-align: justify;
+	hyphens: auto;
 	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
 	color: inherit;
 	background-color: transparent;
 	break-inside: avoid;
 	flex-wrap: wrap;
-	text-align: justify;
-	hyphens: auto;
-	transition-behavior: allow-discrete;
 }
 
-:is(ol, ul, menu) {
+li {
 	list-style: none;
 }
 

@@ -9,7 +9,6 @@ header {
     background-color: var(--secondary-bg);
     /* box-shadow: 2px 2px 2px 2px rgb(226, 230, 173); */
 
-
     [href="#main"] {
         display: none;
     }

@@ -27,7 +27,6 @@ main {
 
 	ul {
 		display: grid;
-		list-style: decimal inside;
 		row-gap: 1em;
 	}
 

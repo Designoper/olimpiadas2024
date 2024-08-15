@@ -21,6 +21,12 @@ html {
 		font-size: 1.25rem;
 	}
 
+	main {
+		ul {
+			list-style: decimal inside;
+		}
+	}
+
 	:is(li::marker, strong) {
 		font-weight: bold;
 	}

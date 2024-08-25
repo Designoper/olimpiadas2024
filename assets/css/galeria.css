@@ -1,7 +1,11 @@
 main {
 	@media screen and (925px <=width) {
-		/* img {
+		>img {
 			anchor-name: --img;
+		}
+
+		div h2 {
+			color: white;
 		}
 
 		div {
@@ -12,27 +16,28 @@ main {
 			position-anchor: --img;
 			top: anchor(top);
 			left: anchor(left);
-			margin-left: 2em;
+			margin-left: 10vw;
 			margin-top: 3em;
 		}
 
 		p {
 			font-size: 1rem;
-			text-wrap: balance;
+			/* text-wrap: balance; */
 			hyphens: none;
-		} */
+		}
 	}
 
 	@media screen and (925px <=width) {
 		section {
 			&:nth-of-type(1) {
-				grid-template-columns: repeat(4, 1fr);
+				grid-template-columns: repeat(12, 1fr);
+				gap: 0.25rem;
 
-				grid-template-areas: "h2 h2 h2 h2"
-					"img1 img1 img2 img2"
-					"img1 img1 img2 img2"
-					"img1 img1 img3 img4"
-					"img1 img1 img3 img4";
+				grid-template-areas:
+					"img1 img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 img2"
+					"img1 img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 img2"
+					"img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4"
+					"img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4";
 
 				img {
 					height: 100%;

@@ -1,6 +1,4 @@
 header {
-    position: sticky;
-    top: 0;
     padding: 0.75rem 10vw;
     display: flex;
     justify-content: space-between;
@@ -18,11 +16,15 @@ header {
     }
 
     >details {
+        svg {
+            width: 1rem;
+        }
+
         z-index: 2;
-        width: 1.25rem;
+        /* width: 1.25rem; */
 
         path {
-            stroke: var(--text);
+            stroke: currentColor;
             stroke-width: 4rem;
         }
 
@@ -48,11 +50,18 @@ header {
         }
 
         summary {
-            display: grid;
+            display: flex;
+            column-gap: 0.5em;
 
             &::-webkit-details-marker {
                 display: none;
             }
+
+            /* &::before{
+                content: "Menú";
+            } */
+
+
         }
     }
 
@@ -76,9 +85,9 @@ header {
     @media screen and (541px <=width) {
         padding: 1.35rem 10vw;
 
-        >details {
+        /* >details {
             width: 1.5rem;
-        }
+        } */
     }
 
     @media screen and (925px <=width) {

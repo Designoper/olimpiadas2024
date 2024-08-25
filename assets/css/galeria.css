@@ -37,7 +37,8 @@ main {
 					"img1 img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 img2"
 					"img1 img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 img2"
 					"img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4"
-					"img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4";
+					"img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4"
+					"img5 img5 img5 img5 img6 img6 img6 img6 img7 img7 img7 img7";
 
 				img {
 					height: 100%;
@@ -56,6 +57,18 @@ main {
 
 					&:nth-of-type(4) {
 						grid-area: img4;
+					}
+
+					&:nth-of-type(5) {
+						grid-area: img5;
+					}
+
+					&:nth-of-type(6) {
+						grid-area: img6;
+					}
+
+					&:nth-of-type(7) {
+						grid-area: img7;
 					}
 				}
 			}

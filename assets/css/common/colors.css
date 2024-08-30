@@ -29,4 +29,8 @@ main {
 			filter: brightness(50%);
 		}
 	}
+
+	section {
+		box-shadow: 2px 2px 2px 2px rgb(226, 230, 173);
+	}
 }

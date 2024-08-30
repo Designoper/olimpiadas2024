@@ -1,5 +1,5 @@
 html {
-	font: 1.1rem "Inter";
+	font: 1.1rem;
 
 	:is(h1, h2, h3) {
 		font-weight: bold;
@@ -44,7 +44,7 @@ html {
 	}
 
 	@media screen and (925px <=width) {
-		font-size: 1.1rem;
+		font-size: 0.85rem;
 
 		h1 {
 			font-size: 3.5rem;

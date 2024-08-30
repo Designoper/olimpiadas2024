@@ -43,6 +43,13 @@ main {
 	@media screen and (925px <=width) {
 		section {
 			padding: 3em 7.5vw;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1.75em 4.25em;
+		}
+	}
+
+	@media screen and (1366px <=width) {
+		section {
 			grid-template-columns: repeat(3, 1fr);
 		}
 	}

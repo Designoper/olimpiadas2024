@@ -16,7 +16,7 @@ main {
 			position-anchor: --img;
 			top: anchor(top);
 			left: anchor(left);
-			margin-left: 10vw;
+			margin-left: 7.5vw;
 			margin-top: 3em;
 		}
 
@@ -42,7 +42,9 @@ main {
 
 				img {
 					height: 100%;
+				}
 
+				picture {
 					&:nth-of-type(1) {
 						grid-area: img1;
 					}
@@ -74,4 +76,5 @@ main {
 			}
 		}
 	}
+}
 }

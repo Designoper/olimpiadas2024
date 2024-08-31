@@ -22,13 +22,12 @@ header {
 
         a {
             padding: 0.35em 0.75em;
-            display: list-item;
         }
     }
 
-    @media screen and (700px <=width) {
+    /* @media screen and (700px <=width) {
         padding: 1.35rem 10vw;
-    }
+    } */
 
     @media screen and (1024px <=width) {
         padding: 0.5rem 7.5vw;
@@ -53,11 +52,6 @@ header {
         }
 
         nav {
-
-            menu {
-                display: flex;
-            }
-
             a {
                 padding: 0.5em 0.75em;
                 transition: background-color 0.35s;

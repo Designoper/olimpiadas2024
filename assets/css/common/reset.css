@@ -32,6 +32,10 @@ li {
 	height: auto;
 }
 
+picture {
+	display: contents;
+}
+
 img {
 	object-fit: cover;
 }

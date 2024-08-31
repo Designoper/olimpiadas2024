@@ -39,19 +39,6 @@ main {
 			padding: 3em 7.5vw;
 			grid-template-columns: repeat(3, 1fr);
 			gap: 1.75em 3em;
-			/* max-width: calc(925px*0.85);
-			margin: auto; */
-		}
-	}
-
-	@media screen and (1610px <=width) {
-		section {
-			/* grid-template-columns: repeat(3, 1fr); */
-			/* padding: 3em 0; */
-			/* max-width: initial; */
-			/* max-width: 1400px;
-			margin: auto; */
-
 		}
 	}
 }

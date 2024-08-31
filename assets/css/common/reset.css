@@ -32,9 +32,9 @@ li {
 	height: auto;
 }
 
-picture {
+/* picture {
 	display: contents;
-}
+} */
 
 img {
 	object-fit: cover;

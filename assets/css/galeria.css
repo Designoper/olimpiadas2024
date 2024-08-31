@@ -1,5 +1,5 @@
 main {
-	@media screen and (925px <=width) {
+	@media screen and (1024px <=width) {
 		>img {
 			anchor-name: --img;
 		}
@@ -27,7 +27,7 @@ main {
 		}
 	}
 
-	@media screen and (925px <=width) {
+	@media screen and (1024px <=width) {
 		section {
 			&:nth-of-type(1) {
 				grid-template-columns: repeat(12, 1fr);

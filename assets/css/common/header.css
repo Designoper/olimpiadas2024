@@ -26,11 +26,11 @@ header {
         }
     }
 
-    @media screen and (541px <=width) {
+    @media screen and (700px <=width) {
         padding: 1.35rem 10vw;
     }
 
-    @media screen and (925px <=width) {
+    @media screen and (1024px <=width) {
         padding: 0.5rem 7.5vw;
 
         [href="#main"] {

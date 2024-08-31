@@ -67,7 +67,7 @@ html {
 	}
 
 	@media screen and (1700px <=width) {
-		font-size: 1.2rem;
+		font-size: 1.25rem;
 	}
 
 	@media screen and (1921px <=width) {

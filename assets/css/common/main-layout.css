@@ -5,7 +5,7 @@ main {
 
 	:is(h1, h2, h3) {
 		flex-basis: 100%;
-		/* grid-column: 1/-1; */
+		grid-column: 1/-1;
 		column-span: all;
 	}
 
@@ -30,22 +30,14 @@ main {
 		row-gap: 1em;
 	}
 
-	@media screen and (700px <=width) {
+	@media screen and (1024px <=width) {
 		h1 {
 			padding: 0 7.5vw;
 		}
 
-		ul {
-			row-gap: 1.25em;
-		}
-	}
-
-	@media screen and (1024px <=width) {
-
-
 		section {
 			padding: 3em 7.5vw;
-			/* grid-template-columns: repeat(2, 1fr); */
+			grid-template-columns: repeat(3, 1fr);
 			gap: 1.75em 3em;
 			/* max-width: calc(925px*0.85);
 			margin: auto; */
@@ -55,10 +47,10 @@ main {
 	@media screen and (1610px <=width) {
 		section {
 			/* grid-template-columns: repeat(3, 1fr); */
-			padding: 3em 0;
+			/* padding: 3em 0; */
 			/* max-width: initial; */
-			max-width: 1400px;
-			margin: auto;
+			/* max-width: 1400px;
+			margin: auto; */
 
 		}
 	}

@@ -5,7 +5,7 @@ main {
 
 	:is(h1, h2, h3) {
 		flex-basis: 100%;
-		grid-column: 1/-1;
+		/* grid-column: 1/-1; */
 		column-span: all;
 	}
 
@@ -21,7 +21,7 @@ main {
 
 	section {
 		display: grid;
-		gap: 2.5em 3.25em;
+		gap: 2rem 3.25rem;
 		padding: 2em 10vw;
 	}
 

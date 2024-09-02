@@ -22,12 +22,12 @@ main {
 	section {
 		display: grid;
 		gap: 2rem 3.25rem;
-		padding: 2em 10vw;
+		padding: 2rem 10vw;
 	}
 
 	ul {
 		display: grid;
-		row-gap: 1em;
+		row-gap: 3rem;
 	}
 
 	@media screen and (1024px <=width) {
